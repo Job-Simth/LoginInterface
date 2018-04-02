@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.marquee.dingrui.marqueeviewlib.MarqueeView
+        android:id="@+id/marquee"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:marqueeview_repet_type="repet_continuous"
+        app:marqueeview_text_size="200"
+        app:marqueeview_text_speed="10" />
+
+</android.support.constraint.ConstraintLayout>
